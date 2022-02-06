@@ -48,3 +48,18 @@ elif(opc==2):
         print("Error")
     else:
         print(f"La resta es: {x}-{y}={x-y}")
+
+elif(opc==3):
+    x=int(input("Introduzca el primer número: "))
+    y=int(input("Introduzca el segundo número: "))
+    if (y==0):
+        print("Error")
+    else:
+        print(f"La multiplicación es: {x}*{y}={x*y}")
+elif(opc==4):
+    x=int(input("Introduzca el primer número: "))
+    y=int(input("Introduzca el segundo número: "))
+    if (y==0):
+        print("Error")
+    else:
+        print(f"La división es: {x}/{y}={x/y}")
