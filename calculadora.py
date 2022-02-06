@@ -21,3 +21,15 @@ Calculadora Condicionales
 7. Exponención a**b pow(a,b)
 8. Salir
 """
+
+print("Calculadora de condicionales")
+print("----------------------------------------")
+print("\t1.- Suma de dos números             --")
+print("\t2.- Resta de dos números            --")
+print("\t3.- Multiplicación de dos números   --")
+print("\t4.- División de dos números         --") 
+print("\t5.- Cociente                        --")
+print("\t6.- Resto                           --") 
+print("\t7.- Exponenciación de dos números   --")
+print("\t8.- Salir")
+#print)"\t9.- ")
