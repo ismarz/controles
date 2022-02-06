@@ -33,3 +33,18 @@ print("\t6.- Resto                           --")
 print("\t7.- Exponenciación de dos números   --")
 print("\t8.- Salir")
 #print)"\t9.- ")
+
+if(opc==1):
+    x=int(input("Introduzca el primer número: "))
+    y=int(input("Introduzca el segundo número: "))
+    if (y==0):
+        print("Error")
+    else:
+        print(f"La suma es: {x}+{y}={x+y}")
+elif(opc==2):
+    x=int(input("Introduzca el primer número: "))
+    y=int(input("Introduzca el segundo número: "))
+    if (y==0):
+        print("Error")
+    else:
+        print(f"La resta es: {x}-{y}={x-y}")
