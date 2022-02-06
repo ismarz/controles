@@ -63,3 +63,18 @@ elif(opc==4):
         print("Error")
     else:
         print(f"La división es: {x}/{y}={x/y}")
+
+elif(opc==5):
+    x=int(input("Introduzca el primer número: "))
+    y=int(input("Introduzca el segundo número: "))
+    if (y==0):
+        print("Error")
+    else:
+        print(f"Los cocientes son: "f"{x}//{y}={x//y}")
+elif(opc==6):
+    x=int(input("Introduzca el primer número: "))
+    y=int(input("Introduzca el segundo número: "))
+    if (y==0):
+        print("Error")
+    else:
+        print(f"El resto es: {x}%{y}={x%y}")
