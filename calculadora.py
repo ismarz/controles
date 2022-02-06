@@ -34,6 +34,7 @@ print("\t7.- Exponenciación de dos números   --")
 print("\t8.- Salir")
 #print)"\t9.- ")
 
+
 if(opc==1):
     x=int(input("Introduzca el primer número: "))
     y=int(input("Introduzca el segundo número: "))
@@ -78,3 +79,11 @@ elif(opc==6):
         print("Error")
     else:
         print(f"El resto es: {x}%{y}={x%y}")
+
+elif(opc==7):
+    x=int(input("Introduzca el primer número: "))
+    y=int(input("Introduzca el segundo número: "))
+    if (y==0):
+        print("Error")
+    else:
+        print(f"El exponente es: {x}**{y}={x**y}")
